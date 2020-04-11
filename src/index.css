@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -11,4 +10,19 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@font-face {
+  font-family: 'Bitterbold';
+  src: local('Bitter-Bold'), url('./fonts/Bitter-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Canvas';
+  src: local('Canvas'), url('./fonts/Canvas-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Mightype';
+  src: local('Mightype'), url('./fonts/Mightype.otf') format('opentype');
 }
